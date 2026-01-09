@@ -1,6 +1,21 @@
-# Automation basics (Bash)
+# Automation basics
 
-Small Bash scripts created as part of self-study in Linux, scripting and system monitoring.
+Small scripts written as self-study to learn basic automation, monitoring and logging
+in Linux environments.
 
-## monitor_disk.sh
+Scripts focus on:
+- System monitoring
+- Log handling
+- Simple automation tasks
+
+
+## Bash scripts
+
+### monitor_disk.sh
 Checks disk usage and prints a warning if usage exceeds a defined threshold.
+
+
+## Python scripts
+
+### log_analysis.py
+Simple log analysis script that parses log files and highlights relevant events for troubleshooting and monitoring.
