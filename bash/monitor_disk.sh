@@ -1,3 +1,5 @@
+# Syfte: Övervaka diskanvändning och logga varningar och status
+
 #!/bin/bash
 
 THRESHOLD=80

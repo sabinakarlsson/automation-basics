@@ -1,3 +1,5 @@
+# Syfte: Logga CPU-, minnes- och diskanvändning för systemstatus
+
 #!/bin/bash
 
 LOGFILE="logs/system_status.log"

@@ -18,8 +18,4 @@ Checks disk usage and prints a warning if usage exceeds a defined threshold.
 ## Python scripts
 
 ### log_analysis.py
-<<<<<<< HEAD
 Simple log analysis script that parses log files and highlights relevant events for troubleshooting and monitoring.
-=======
-Simple log analysis script that parses log files and highlights relevant events for troubleshooting and monitoring.
->>>>>>> 34c3325 (Separate logs for monitor_disk and system_status. Added Python analysis for system_status)
