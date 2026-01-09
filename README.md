@@ -23,5 +23,8 @@ Logs CPU, memory, and disk usage of the system with timestamps. The data is writ
 
 ## Python scripts
 
-### log_analysis.py
-Simple log analysis script that parses log files and highlights relevant events for troubleshooting and monitoring.
+### log_analysis_system.py
+Reads the system status log and counts the total number of entries. Currently, it only counts lines and does not detect warnings or errors.
+
+### log_analysis_disk.py
+Reads the disk monitoring log and counts the number of warnings. Each line containing "WARNING" is counted, providing a quick summary of potential disk issues.
