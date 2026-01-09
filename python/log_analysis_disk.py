@@ -1,5 +1,5 @@
 error_count = 0
-logfile = "logs/disk_monitor.log"
+logfile = "logs/monitor_disk.log"
 
 with open(logfile, "r") as file:
     for line in file:

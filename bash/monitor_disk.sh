@@ -3,7 +3,7 @@
 #!/bin/bash
 
 THRESHOLD=80
-LOGFILE="logs/disk_monitor.log"
+LOGFILE="logs/monitor_disk.log"
 
 df -h | grep '^/dev/' | while read fs size used avail percent mount; do
     usage=${percent%\%}
