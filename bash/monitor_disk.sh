@@ -1,7 +1,7 @@
 #!/bin/bash
 
 THRESHOLD=80
-LOGFILE="../python/system_status.log"
+LOGFILE="logs/disk_monitor.log"
 
 df -h | grep '^/dev/' | while read fs size used avail percent mount; do
     usage=${percent%\%}
