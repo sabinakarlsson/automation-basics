@@ -20,6 +20,9 @@ Checks the status of a specified system service and logs whether it is running. 
 ### system_status.sh
 Logs CPU, memory, and disk usage of the system with timestamps. The data is written to a log file for monitoring purposes.
 
+### backup_config.sh
+Creates a compressed backup of selected files and directories. The backup is named using the current date and the result is logged.
+
 
 ## Python scripts
 
