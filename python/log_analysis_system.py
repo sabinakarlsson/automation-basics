@@ -1,3 +1,5 @@
+# Syfte: Läs systemstatus-loggen och räkna totalt antal loggrader.
+
 logfile = "logs/system_status.log"
 # I nuläget räknar vi bara rader, inga varningar
 total_lines = 0

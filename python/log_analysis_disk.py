@@ -1,3 +1,5 @@
+# Syfte: Läs disk-monitor-loggen och räkna antalet varningar ("WARNING").
+
 error_count = 0
 logfile = "logs/monitor_disk.log"
 
